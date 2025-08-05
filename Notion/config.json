@@ -1,0 +1,66 @@
+{
+    "app_settings": {
+        "window_title": "Notion Clone - Professional Edition",
+        "initial_window_size": [1200, 800],
+        "auto_save_interval": 3000,
+        "theme": "light",
+        "font_family": "Segoe UI",
+        "font_size": 13,
+        "show_line_numbers": false,
+        "word_wrap": true,
+        "spell_check": false
+    },
+    "database_settings": {
+        "db_name": "notion_clone.db",
+        "backup_interval": 3600,
+        "max_backup_files": 5
+    },
+    "ui_settings": {
+        "sidebar_width": 300,
+        "show_status_bar": true,
+        "show_toolbar": true,
+        "show_menubar": true,
+        "tab_position": "top",
+        "icon_size": 16
+    },
+    "editor_settings": {
+        "default_font": "Arial",
+        "default_font_size": 14,
+        "line_height": 1.6,
+        "show_word_count": true,
+        "enable_markdown": false,
+        "auto_complete": true
+    },
+    "export_settings": {
+        "default_format": "html",
+        "include_metadata": true,
+        "compress_images": true,
+        "quality": 85
+    },
+    "shortcuts": {
+        "new_page": "Ctrl+N",
+        "save": "Ctrl+S",
+        "open": "Ctrl+O",
+        "export": "Ctrl+E",
+        "find": "Ctrl+F",
+        "toggle_sidebar": "Ctrl+\\",
+        "bold": "Ctrl+B",
+        "italic": "Ctrl+I",
+        "underline": "Ctrl+U",
+        "insert_link": "Ctrl+K",
+        "undo": "Ctrl+Z",
+        "redo": "Ctrl+Y"
+    },
+    "templates": {
+        "auto_load_defaults": true,
+        "custom_template_folder": "templates",
+        "enable_template_variables": true
+    },
+    "advanced": {
+        "debug_mode": false,
+        "log_level": "INFO",
+        "performance_monitoring": false,
+        "memory_limit_mb": 512,
+        "cache_size_mb": 64
+    }
+}
